@@ -32,8 +32,7 @@ def get_random_sentence(animals, adjectives, fruits):
     a= random.choice(animals)
     b=random.choice(adjectives)
     c=random.choice(fruits)
-    e=print(f"Aujourd’hui, j’ai vu un {a} s’emparer d’un panier {b} plein de {c}.")
-    return e
+    return 'Aujourd"hui, j’ai vu un %s s’emparer d’un panier %s plein de %s' %(a,b,c)
 
 if __name__ == "__main__":
     spam = "Bonjour!"
