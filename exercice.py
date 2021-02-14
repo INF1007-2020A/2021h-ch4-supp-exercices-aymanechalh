@@ -5,9 +5,9 @@ import random
 
 def is_even_len(string):
     if len(string)%2==0:
-        parity='pair'
+        parity='Pair'
     else:
-        parity='imapir'
+        parity='impair'
 
 
 
